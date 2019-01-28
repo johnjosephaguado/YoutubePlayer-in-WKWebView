@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name              = 'YoutubePlayer-in-WKWebView'
-  s.version           = '0.2.5'
+  s.version           = '0.1.0'
   s.summary           = 'YoutubePlayer using WKWebView'
 
   s.description       = 'Helper library for iOS developers that want to embed YouTube videos in
                          their iOS apps with the iframe player API in WKWebView.'
 
-  s.homepage           = 'https://github.com/hmhv/YoutubePlayer-in-WKWebView'
+  s.homepage           = 'https://github.com/johnjosephaguado/YoutubePlayer-in-WKWebView'
   s.license            = {
                             :type => 'Apache',
                             :text => <<-LICENSE
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
                               limitations under the License.
                             LICENSE
                          }
-  s.author             = { 'hmhv' => 'admin@hmhv.info' }
-  s.source             = { :git => 'https://github.com/hmhv/YoutubePlayer-in-WKWebView.git', :tag => s.version }
+  s.author             = { 'John Joseph Aguado' => 'johnjosephaguado@gmail.com' }
+  s.source             = { :git => 'https://github.com/johnjosephaguado/YoutubePlayer-in-WKWebView.git', :tag => s.version }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
